@@ -1,0 +1,94 @@
+{
+  "NFe": {
+    "infNFe": {
+      "versao": "4.00",
+      "ID": "NFe35190611123456000190550010000000011000000034",
+      "emitente": {
+        "CNPJ": "11123456000190",
+        "xNome": "Empresa Exemplo Ltda",
+        "xFant": "Exemplo",
+        "enderEmit": {
+          "xLgr": "Rua Exemplo",
+          "nro": "100",
+          "xBairro": "Centro",
+          "cMun": "4117700",
+          "xMun": "Curitiba",
+          "UF": "PR",
+          "CEP": "80010000",
+          "fone": "4132345678"
+        }
+      },
+      "destinatario": {
+        "CNPJ": "22234567000190",
+        "xNome": "Cliente Exemplo S.A.",
+        "enderDest": {
+          "xLgr": "Avenida Teste",
+          "nro": "500",
+          "xBairro": "Industrial",
+          "cMun": "3550308",
+          "xMun": "São Paulo",
+          "UF": "SP",
+          "CEP": "01010000",
+          "fone": "1123456789"
+        }
+      },
+      "produtos": [
+        {
+          "cProd": "001",
+          "xProd": "Produto Exemplo 1",
+          "NCM": "12345678",
+          "CFOP": "5101",
+          "uCom": "UN",
+          "qCom": 10,
+          "vUnCom": 50.00,
+          "vProd": 500.00,
+          "indTot": "1"
+        },
+        {
+          "cProd": "002",
+          "xProd": "Produto Exemplo 2",
+          "NCM": "87654321",
+          "CFOP": "5102",
+          "uCom": "UN",
+          "qCom": 5,
+          "vUnCom": 100.00,
+          "vProd": 500.00,
+          "indTot": "1"
+        }
+      ],
+      "total": {
+        "ICMSTot": {
+          "vBC": 1000.00,
+          "vICMS": 180.00,
+          "vICMSDeson": 0.00,
+          "vFCP": 0.00,
+          "vBCST": 0.00,
+          "vST": 0.00,
+          "vProd": 1000.00,
+          "vFrete": 0.00,
+          "vSeg": 0.00,
+          "vDesc": 0.00,
+          "vII": 0.00,
+          "vIPI": 0.00,
+          "vPIS": 0.00,
+          "vCOFINS": 0.00,
+          "vOutro": 0.00,
+          "vNF": 1000.00
+        }
+      },
+      "transporte": {
+        "modFrete": "0"
+      },
+      "informacoesAdicionais": {
+        "infAdFisco": "NFe gerada conforme legislação vigente."
+      }
+    },
+    "signature": {
+      "signedInfo": {
+        "canonicalizationMethod": "http://www.w3.org/2001/10/xml-exc-c14n#",
+        "signatureMethod": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+      },
+      "signatureValue": "abcdef1234567890"
+    }
+  }
+}
